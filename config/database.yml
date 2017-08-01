@@ -1,0 +1,18 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  timeout: 5000
+  database: db/devpostgresql
+  username: systryonka
+  # password:
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: db/testpostgresql
+  username: systryonka
+  # password:
+
+production:
+  url: <%= ENV['DATABASE_URL'] %>
