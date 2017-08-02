@@ -1,14 +1,17 @@
 <div class="jumbotron">
+  <center>
+<%= link_to image_tag("logo.jpg", size: "250x200", alt: "Home"),
+            "/" %>
   <h1>DrawApp</h1>
   <div id="fade"><p>What did you draw?</p>
 
-  <center><div class="input-group">
-    <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1 id="usr">
-  </div>
-  <br>
-  <div class="input-group" >
-    <input type="password" class="form-control" placeholder="Password" aria-describedby="basic-addon1" id="pwd">
-  </div>
+
+    <div class="input-group">
+      <p><input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1 id="usr"></p>
+    </div>
+    <div class="input-group">
+      <p><input type="password" class="form-control" placeholder="Password" aria-describedby="basic-addon1" id="pwd"></p>
+    </div>
   </center>
 
   <h2><a class="btn btn-primary btn-block center-block custom-btn"

@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
 
   get 'startpage/index'
+  get '/registration', to: 'startpage#registration'
 
   root 'startpage#index'
 

@@ -75,9 +75,16 @@ p {
   text-decoration: none;
 }
 
+/* Positioning */
+
+.wrap {
+width: 50%;
+}
+
+
 /* Fade Animation */
 
-#fade p, h1, h2 {
+#fade p, h2 {
     margin-top: 25px;
     font-size: 21px;
     text-align: center;
