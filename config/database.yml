@@ -3,9 +3,9 @@ development:
   encoding: unicode
   pool: 5
   timeout: 5000
-  database: db/devpostgresql
+  database: db/testpostgresql
   username: systryonka
-  # password:
+  password: <%= ENV['DB_DEV_PASS'] %>
 
 test:
   adapter: postgresql

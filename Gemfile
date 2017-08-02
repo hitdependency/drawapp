@@ -7,8 +7,8 @@ end
 
 # Custom gem selection
 
-gem 'bootstrap-sass', '~> 3.1.1'
-
+gem 'bootstrap-sass', '~> 3.2.0'
+gem 'bcrypt', '3.1.11'
 gem 'pg'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
