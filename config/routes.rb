@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  get 'users/new'
+
   get 'startpage/index'
   get '/registration', to: 'startpage#registration'
 
